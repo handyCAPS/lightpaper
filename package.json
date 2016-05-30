@@ -1,0 +1,22 @@
+{
+  "name": "lightpaper",
+  "version": "1.0.0",
+  "description": "A system to display information on a screen like a light paper",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ict-lab/lightpaper.git"
+  },
+  "keywords": [
+    "CMS"
+  ],
+  "author": "Tim Doppenberg, Paul Nooij, John Aartman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ict-lab/lightpaper/issues"
+  },
+  "homepage": "https://github.com/ict-lab/lightpaper#readme"
+}
