@@ -4,8 +4,8 @@
   "description": "A system to display information on a screen like a light paper",
   "main": "index.js",
   "scripts": {
-    
-  },
+  	"livereload": "live-reload ./ --port=9091"
+  	},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ict-lab/lightpaper.git"
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/ict-lab/lightpaper/issues"
   },
-  "homepage": "https://github.com/ict-lab/lightpaper#readme"
+  "homepage": "https://github.com/ict-lab/lightpaper#readme",
+  "devDependencies": {
+    "live-reload": "^1.1.0",
+    "nodemon": "^1.9.2"
+  }
 }
