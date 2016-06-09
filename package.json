@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "livereload": "live-reload ./ --port=9091",
-    "sass": "node-sass --include-path dev/scss dev/scss/main.scss dist/css/main.css"
+    "sass": "node-sass --include-path dev/scss dev/scss/main.scss dist/css/main.css",
+    "sass-watch": "nodemon -e dev/scss -x \"npm run sass\""
   },
   "repository": {
     "type": "git",
