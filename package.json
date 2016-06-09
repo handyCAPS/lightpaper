@@ -4,7 +4,9 @@
   "description": "A system to display information on a screen like a light paper",
   "main": "index.js",
   "scripts": {
-    
+    "livereload": "live-reload ./ --port=9091",
+    "sass": "node-sass --include-path dev/scss dev/scss/main.scss dist/css/main.css",
+    "sass-watch": "nodemon -e dev/scss -x \"npm run sass\""
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/ict-lab/lightpaper/issues"
   },
-  "homepage": "https://github.com/ict-lab/lightpaper#readme"
+  "homepage": "https://github.com/ict-lab/lightpaper#readme",
+  "devDependencies": {
+    "live-reload": "^1.1.0",
+    "node-sass": "^3.7.0",
+    "nodemon": "^1.9.2"
+  }
 }
