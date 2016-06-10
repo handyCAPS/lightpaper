@@ -2,3 +2,10 @@
 **/bower_components
 
 **/.sass-cache
+**/img
+
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
