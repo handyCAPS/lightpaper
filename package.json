@@ -27,6 +27,8 @@
     "live-reload": "^1.1.0",
     "node-sass": "^3.7.0",
     "nodemon": "^1.9.2",
-    "postcss": "^5.0.21"
+    "postcss": "^5.0.21",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   }
 }
