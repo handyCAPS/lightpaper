@@ -7,7 +7,8 @@
     "livereload": "live-reload ./ --port=9091",
     "sass": "node-sass --include-path dev/scss dev/scss/main.scss | npm run postcss",
     "sass-watch": "nodemon -e dev/scss -x \"npm run sass\"",
-    "postcss": "postcss --use autoprefixer --local-plugins --no-map -o dist/css/main.css"
+    "postcss": "postcss --use autoprefixer --local-plugins --no-map -o dist/css/main.css",
+    "webpack": "webpack"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,9 @@
   "homepage": "https://github.com/ict-lab/lightpaper#readme",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
     "live-reload": "^1.1.0",
     "node-sass": "^3.7.0",
     "nodemon": "^1.9.2",
